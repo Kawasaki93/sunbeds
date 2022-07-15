@@ -2,8 +2,8 @@
     width: 80%;
     max-width: 100%;
     display: grid;
-    grid-template-columns: 100px 100px 120px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-rows: 90px 90px 90px 90px 90px 110px 100px 90px;
+    grid-template-columns: 100px 100px 130px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 130px 130px 130px 130px 130px 130px 130px 450px 130px 130px 130px 130px 130px 130px 130px 130px;;
     gap: 0px 0px;
     float: right;
 }
@@ -15,19 +15,28 @@ body {
     transform-origin: top left;
     font-family: Tahoma, sans-serif;
     background: #CEEFF1;
-    margin-left: 18px;
+    margin-left: 40px;
     margin-right: auto;
     touch-action: manipulation;
+    font-size:40px;
+    text-align: center;
+  
 }
+ * {
+      touch-action: manipulation;
+  }
 
 .left_panel {
     width: 20%;
     float: left;
+    
 }
 
-.h3 { /*no funciona */
+
+.header { /*no funciona */
     display: inline-block;
-    align-items: right;
+    align-items: center;
+    
 }
 
 .zoom {
@@ -44,7 +53,8 @@ body {
     text-align: center;
     display: inline-block;
     font-family: sans-serif;
-    margin-left: 12px;
+    font-size:22px;
+    margin-left: 120px;
     margin-top: 15px;
     position: relative;
 }
@@ -95,6 +105,13 @@ body {
     text-align: center;
     zoom: 100%;
     touch-action: none;
+  
+
+}
+
+.shopping_cat_value{
+  font-size:80px;
+  
 }
 
 .especiales {
@@ -120,7 +137,7 @@ body {
 
 form {
     /*Codigo centrado formulario */
-    margin-top: 40px;
+    margin-top: 25px;
     border: 0;
     text-align: center;
     padding: 0;
@@ -128,6 +145,7 @@ form {
 
 .form input {
     width: 100%;
+   height: 15px;
 }
 
 
@@ -147,10 +165,11 @@ label {
     display: inline-block;
     width: 7px;
     text-align: center;
+  
 }
 
 input, textarea {
-    font: 1em sans-serif;
+    font: 13px sans-serif;
     widht: 7px;
     box-sizing: border-box;
     border: 1px solid #999
@@ -161,7 +180,7 @@ input, textarea {
     display: inline-block;
     padding: 15px 25px;
     font-family: Tahoma;
-    font-size: 10px;
+    font-size: 45px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
@@ -171,7 +190,7 @@ input, textarea {
     border: none;
     border-radius: 18px;
     box-shadow: 0 4px #999;
-    margin-right:550px;
+    margin-right:500px;
 }
 
 .button:hover {
@@ -188,8 +207,9 @@ input, textarea {
        content: '8';
     position: absolute;
     right: 130%;
-    font-size: 30px;
+    font-size: 50px;
     color: red;
+   margin-bottom:30px;
   }
 .sunbed:nth-of-type(13):before,
 .sunbed:nth-of-type(25):before,
@@ -198,7 +218,7 @@ input, textarea {
     content: '5';
     position: absolute;
     right: 130%;
-    font-size: 30px;
+    font-size: 50px;
     color: red;
 }
 
@@ -214,21 +234,21 @@ input, textarea {
      content: '4';
     position: absolute;
     right: 130%;
-    font-size: 30px;
+    font-size: 50px;
     color: red;
   }
 .sunbed:nth-of-type(61):before {
     content: '3';
     position: absolute;
     right: 130%;
-    font-size: 30px;
+    font-size: 50px;
     color: red;
   }
 .sunbed:nth-of-type(73):before {
     content: '2';
     position: absolute;
     right: 130%;
-    font-size: 30px;
+    font-size: 50px;
     color: red;
   
   }
@@ -236,8 +256,76 @@ input, textarea {
     content: '1';
     position: absolute;
     right: 130%;
+    font-size: 50px;
+    color: red;
+  }
+
+.sunbed:nth-of-type(97):before {
+
+       content: '8';
+
+    position: absolute;
+
+    right: 130%;
+
+    font-size: 30px;
+
+    color: red;
+
+  }
+
+.sunbed:nth-of-type(109):before {
+       content: '7';
+    position: absolute;
+    right: 130%;
     font-size: 30px;
     color: red;
   }
 
+.sunbed:nth-of-type(121):before {
+       content: '6';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
 
+.sunbed:nth-of-type(133):before {
+       content: '5';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
+
+.sunbed:nth-of-type(145):before {
+       content: '4';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
+
+.sunbed:nth-of-type(157):before {
+       content: '3';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
+
+.sunbed:nth-of-type(169):before {
+       content: '2';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
+
+.sunbed:nth-of-type(181):before {
+       content: '1';
+    position: absolute;
+    right: 130%;
+    font-size: 30px;
+    color: red;
+  }
